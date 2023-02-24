@@ -6,7 +6,7 @@ import numpy as np
 from scipy.spatial.transform import Rotation as R
 
 if __name__ == "__main__":
-    # 传入urban_08文件夹的路径 python3 kaist2evo.py -p [the path of urban bag] 
+    # 传入文件夹的路径 python3 MulRan_2_tumformat.py -p [the path of urban bag] 
     parser = argparse.ArgumentParser(description="path")
     parser.add_argument("-p", "--path", type=str, help="the path of urban bag")
     parser.add_argument("-o", "--output", default=None,type=str, help="the path of result")
